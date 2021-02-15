@@ -1,6 +1,6 @@
 <?php
 
-namespace Helldar\PackageWizard\Steppers;
+namespace Helldar\PackageWizardTemplate\Steppers;
 
 use Helldar\PackageWizard\Steppers\BaseStepper;
 
