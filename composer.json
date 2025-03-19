@@ -16,8 +16,8 @@
     ],
     "authors": [
         {
-            "name": ":name:",
-            "email": ":email:"
+            "name": "Andrey Helldar",
+            "email": "helldar@dragon-code.pro"
         }
     ],
     "support": {
@@ -28,7 +28,7 @@
         "php": "^8.2"
     },
     "require-dev": {
-        "pestphp/pest": "^3.7"
+        "pestphp/pest": "^3.7.4"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
