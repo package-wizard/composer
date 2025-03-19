@@ -1,12 +1,18 @@
-.idea/
+.idea
 
-build/
-node_modules/
-vendor/
+/node_modules
+/vendor
 
-*.bak
+/.phpunit.cache
+
+composer.lock
+
+*.backup
 *.cache
-*.clover
+*.log
 *.orig
+*.bak
 
-*.lock
+*.BASE
+*.LOCAL
+*.REMOTE

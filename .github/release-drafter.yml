@@ -1,0 +1,53 @@
+name-template: '$RESOLVED_VERSION'
+tag-template: '$RESOLVED_VERSION'
+change-template: '- $TITLE by @$AUTHOR in #$NUMBER'
+category-template: '## $TITLE'
+
+sort-by: 'title'
+sort-direction: 'ascending'
+
+include-pre-releases: false
+
+categories:
+    -   title: 'Added'
+        labels:
+            - 'added'
+    -   title: 'Changed'
+    -   title: 'Removed'
+        labels:
+            - 'removed'
+    -   title: 'Fixed'
+        labels:
+            - 'fix'
+            - 'bug'
+    -   title: 'Dependencies'
+        collapse-after: 10
+        labels:
+            - 'dependencies'
+    -   title: 'Security'
+        labels:
+            - 'security'
+            - 'security fix'
+            - 'security vulnerability'
+
+exclude-labels:
+    - 'skip-changelog'
+    - 'github_actions'
+    - 'code-style'
+    - 'dependabot'
+    - 'statuses'
+    - 'build'
+
+version-resolver:
+    major:
+        labels:
+            - 'major'
+            - 'removed'
+    minor:
+        labels:
+            - 'minor'
+            - 'added'
+            - 'feature'
+    default: patch
+
+template: $CHANGES
