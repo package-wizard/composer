@@ -1,7 +1,7 @@
 {
-    "name": "andrey-helldar/package-wizard-template",
-    "description": "Basic template for the Package Wizard extension.",
-    "license": "MIT",
+    "name": "package-wizard/composer-light",
+    "description": "Lightweight project template",
+    "license": "MIT License",
     "type": "library",
     "keywords": [
         "composer",
@@ -16,41 +16,30 @@
     ],
     "authors": [
         {
-            "name": "Andrey Helldar",
-            "email": "helldar@dragon-code.pro",
-            "homepage": "https://github.com/andrey-helldar"
+            "name": ":name:",
+            "email": ":email:"
         }
     ],
     "support": {
-        "issues": "https://github.com/andrey-helldar/package-wizard/issues",
-        "source": "https://github.com/andrey-helldar/package-wizard"
+        "issues": "https://github.com/package-wizard/composer-light/issues",
+        "source": "https://github.com/package-wizard/composer-light"
     },
-    "funding": [
-        {
-            "type": "github",
-            "url": "https://github.com/sponsors/TheDragonCode"
-        },
-        {
-            "type": "open_collective",
-            "url": "https://opencollective.com/dragon-code"
-        },
-        {
-            "type": "boosty",
-            "url": "https://boosty.to/dragon-code"
-        },
-        {
-            "type": "yoomoney",
-            "url": "https://yoomoney.ru/to/410012608840929"
-        }
-    ],
+    "require": {
+        "php": "^8.2"
+    },
     "require-dev": {
-        "andrey-helldar/package-wizard": "^1.0"
+        "pestphp/pest": "^3.7"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Helldar\\PackageWizardTemplate\\": "src"
+            "PackageWizard\\ComposerLight\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
         }
     },
     "config": {
@@ -58,7 +47,7 @@
             "dragon-code/codestyler": true,
             "ergebnis/composer-normalize": true,
             "friendsofphp/php-cs-fixer": true,
-            "andrey-helldar/package-wizard": true
+            "pestphp/pest-plugin": true
         },
         "preferred-install": "dist",
         "sort-packages": true

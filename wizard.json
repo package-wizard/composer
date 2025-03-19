@@ -1,0 +1,44 @@
+{
+    "$schema": "../installer/resources/schemas/schema-v2.json",
+    "replaces": [
+        {
+            "replace": "\n> [!TIP]\n>\n> **Package Wizard** is a library for easy creation and customization of new projects with\n> a CLI tool using ready-made templates.",
+            "with": ""
+        }
+    ],
+    "questions": [
+        {
+            "type": "ask",
+            "prompt": "text",
+            "question": "Which name of your project?",
+            "replace": [
+                "Lightweight Composer Template",
+                "Package Wizard"
+            ]
+        },
+        {
+            "type": "license",
+            "replace": [
+                ":license:",
+                "MIT License"
+            ]
+        },
+        {
+            "type": "author"
+        },
+        {
+            "type": "ask",
+            "prompt": "text",
+            "question": "Which namespace of your project?",
+            "placeholder": "E.g. PackageWizard\\ComposerLight",
+            "replace": "PackageWizard\\ComposerLight"
+        },
+        {
+            "type": "ask",
+            "prompt": "text",
+            "question": "Under what name will the project be distributed?",
+            "placeholder": "E.g. package-wizard/composer-light",
+            "replace": "package-wizard/composer-light"
+        }
+    ]
+}
