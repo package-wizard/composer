@@ -1,5 +1,5 @@
 {
-    "$schema": "../installer/resources/schemas/schema-v2.json",
+    "$schema": "https://package-wizard.com/schemas/schema-v2.json",
     "replaces": [
         {
             "replace": "\n> [!TIP]\n>\n> **Package Wizard** is a library for easy creation and customization of new projects with\n> a CLI tool using ready-made templates.",
