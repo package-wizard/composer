@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PackageWizard\ComposerLight;
+namespace PackageWizard\Composer;
 
 class YourApp
 {
