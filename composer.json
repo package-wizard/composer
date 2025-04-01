@@ -21,8 +21,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/package-wizard/composer-light/issues",
-        "source": "https://github.com/package-wizard/composer-light"
+        "issues": "https://github.com/package-wizard/composer/issues",
+        "source": "https://github.com/package-wizard/composer"
     },
     "require": {
         "php": "^8.2"
@@ -34,7 +34,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "PackageWizard\\ComposerLight\\": "src/"
+            "PackageWizard\\Composer\\": "src/"
         }
     },
     "autoload-dev": {
