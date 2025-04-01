@@ -31,15 +31,15 @@
             "type": "ask",
             "prompt": "text",
             "question": "Which namespace of your project?",
-            "placeholder": "E.g. PackageWizard\\ComposerLight",
-            "replace": "PackageWizard\\ComposerLight"
+            "placeholder": "E.g. PackageWizard\\Composer",
+            "replace": "PackageWizard\\Composer"
         },
         {
             "type": "ask",
             "prompt": "text",
             "question": "Under what name will the project be distributed?",
-            "placeholder": "E.g. package-wizard/composer-light",
-            "replace": "package-wizard/composer-light"
+            "placeholder": "E.g. package-wizard/composer",
+            "replace": "package-wizard/composer"
         }
     ]
 }
