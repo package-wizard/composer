@@ -1,5 +1,5 @@
 {
-    "name": "package-wizard/composer-light",
+    "name": "package-wizard/composer",
     "description": "Lightweight project template",
     "license": "MIT",
     "type": "library",
